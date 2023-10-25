@@ -1,0 +1,39 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*NAVIGATION BAR*/
+nav{
+    background-color: rgb(250, 243, 215);
+    height: fit-content;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.our-honey, .trace-honey, .shop, .facilities, .contacts{
+    background-color: palegoldenrod;
+    color: rgb(66, 16, 16);
+    padding: 5px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.shop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 60px;
+}
+.shop img{
+  width: 25%;
+}
