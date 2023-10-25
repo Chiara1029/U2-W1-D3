@@ -10,11 +10,12 @@ body {
 /*ARTICLE*/
 .article-container{
     height: fit-content;
-    background-color: rgb(250, 243, 215);
+    background-color: #fef7e2;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: #742305;
 }
 .article-container img{
     object-fit: contain;

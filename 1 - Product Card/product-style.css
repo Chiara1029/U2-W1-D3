@@ -19,17 +19,16 @@ body {
 .product-container{
     width: 400px;
     height: 410px;
-    background-color: rgb(250, 243, 215);
+    background-color: #fef7e2;
     border-radius: 80px;
     display: flex;
-    
 }
 .product-card{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    color: rgb(46, 10, 10);
+    color: #742305;
 }
 .price{
     display: flex;
@@ -41,10 +40,10 @@ body {
 }
 
 button{
-    background-color: palegoldenrod;
+    background-color: #ffdf7f;
     border: none;
     width: 40%;
-    color: rgb(46, 10, 10);
+    color: #742305;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;

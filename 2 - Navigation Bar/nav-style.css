@@ -8,7 +8,7 @@ body {
 
 /*NAVIGATION BAR*/
 nav{
-    background-color: rgb(250, 243, 215);
+    background-color: #fef7e2;
     height: fit-content;
     padding: 20px;
     border-radius: 50px;
@@ -18,14 +18,13 @@ nav{
     justify-content: space-around;
 }
 .our-honey, .trace-honey, .shop, .facilities, .contacts{
-    background-color: palegoldenrod;
-    color: rgb(66, 16, 16);
+    background-color: #ffdf7f;
+    color: #742305;
     padding: 5px;
     border-radius: 50px;
     width: 100px;
     text-align: center;
 }
-
 .shop{
   display: flex;
   flex-direction: row;

@@ -4,28 +4,27 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
 
 /*NAVIGATION BAR*/
 nav{
-    background-color: rgb(250, 243, 215);
+    background-color: #fef7e2;
     height: fit-content;
     padding: 20px;
-    border-radius: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 .our-honey, .trace-honey, .shop, .facilities, .contacts{
-    background-color: palegoldenrod;
-    color: rgb(66, 16, 16);
+    background-color: #ffdf7f;
+    color: #742305;
     padding: 5px;
     border-radius: 50px;
     width: 100px;
     text-align: center;
 }
-
 .shop{
   display: flex;
   flex-direction: row;
@@ -36,4 +35,85 @@ nav{
 }
 .shop img{
   width: 25%;
+}
+
+/*MAIN*/
+h1{
+    color: #742305;
+    margin-left: 2rem;
+}
+
+/*PRODUCT CARDS*/
+.product-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.product-container img{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.product-container{
+    width: 300px;
+    height: 350px;
+    background-color: #fef7e2;
+    border-radius: 50px;
+    display: flex;
+}
+.product-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #742305;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+}
+.add-to-cart{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #ffdf7f;
+    border: none;
+    width: 40%;
+    color: #742305;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.cards-first-row, .cards-second-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+/*ARTICLE*/
+.article-container{
+    height: fit-content;
+    background-color: #fef7e2;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    color: #742305;
+}
+.article-container img{
+    object-fit: contain;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .article-container{
+        flex-direction: column;
+    }
+    .article-container img{
+        order: 1;
+    }
 }
